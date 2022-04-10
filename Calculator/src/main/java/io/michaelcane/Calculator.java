@@ -58,6 +58,13 @@ public class Calculator {
         return Math.sqrt(value1);
     }
 
+    public static double cube(double value1) {
+        /**
+         * This method should cube a value (double) provided by the user.
+         */
+        return Math.pow(value1, 3);
+    }
+
     public static double variableExponentiation(double value1, double value2) {
         /**
          * This method should evaluate value1 (double) to the power of value2 (double).
